@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"Sig_soundsa3_COMPAT_CDLC_SPE_MG","squad_weapon_soundmod","Sig_Sounds","WW2_SPE_Assets_s_Weapons_Ammo_s", "WW2_SPE_Assets_s_Weapons_Explosions_s", "WW2_SPE_Assets_s_Weapons_Launchers_s", "WW2_SPE_Assets_s_Weapons_MachineGun_Heavy_s", "WW2_SPE_Assets_s_Weapons_MachineGun_Light_s", "WW2_SPE_Assets_s_Weapons_MachineGun_Sub_s", "WW2_SPE_Assets_s_Weapons_Misc_s", "WW2_SPE_Assets_s_Weapons_Pistols_s", "WW2_SPE_Assets_s_Weapons_Rifles_s", "WW2_SPE_Assets_s_Weapons_SniperRifles_s", "WW2_SPE_Assets_s_Weapons_Sounds_s","WW2_SPE_Assets_c_Weapons_Ammoboxes_c", "WW2_SPE_Assets_c_Weapons_Backpacks_c", "WW2_SPE_Assets_c_Weapons_Effects_c", "WW2_SPE_Assets_c_Weapons_Misc_c", "WW2_SPE_Assets_c_Weapons_Recoil_c", "WW2_SPE_Assets_c_Weapons_SoundsFeedback_c", "WW2_SPE_Assets_c_Weapons_WeaponHandling_c", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c", "WW2_SPE_Assets_c_Weapons_Mines_c", "WW2_SPE_Assets_c_Weapons_Misc_c_Arsenal", "WW2_SPE_Assets_c_Weapons_Misc_c_TaskForceRadioItems_Compatibility", "WW2_SPE_Assets_c_Weapons_SimpleObjects_c", "WW2_SPE_Assets_c_WeaponsAmmoParameters_c", "WW2_SPE_Assets_c_Weapons_Misc_c_AdvancedCombatRadioEnvironment2RadioItems_Compatibility", "WW2_SPE_Assets_c_Weapons_ZZZ_LastLoaded_c", "WW2_SPE_Assets_c_Weapons_Sounds_c"};
+		requiredAddons[] = {"A3_Sounds_F","A3_Sounds_F_exp","A3_Weapons_F","A3_Weapons_f_exp","A3_Weapons_F_Enoch","PS44_AMZ_M1919","Sig_soundsa3_COMPAT_CDLC_SPE_MG","squad_weapon_soundmod","Sig_Sounds", "WW2_SPE_Assets_c_Weapons_AmmoParameters_c", "WW2_SPE_Assets_c_Weapons_Ammoboxes_c", "WW2_SPE_Assets_c_Weapons_Backpacks_c", "WW2_SPE_Assets_c_Weapons_Effects_c", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c", "WW2_SPE_Assets_c_Weapons_Mines_c", "WW2_SPE_Assets_c_Weapons_Misc_c", "WW2_SPE_Assets_c_Weapons_Misc_c_AdvancedCombatRadioEnvironment2RadioItems_Compatibility", "WW2_SPE_Assets_c_Weapons_Misc_c_Arsenal", "WW2_SPE_Assets_c_Weapons_Misc_c_TaskForceRadioItems_Compatibility", "WW2_SPE_Assets_c_Weapons_Recoil_c", "WW2_SPE_Assets_c_Weapons_SimpleObjects_c", "WW2_SPE_Assets_c_Weapons_SoundsFeedback_c", "WW2_SPE_Assets_c_Weapons_Sounds_c", "WW2_SPE_Assets_c_Weapons_WeaponHandling_c", "WW2_SPE_Assets_c_Weapons_ZZZ_LastLoaded_c", "WW2_SPE_Assets_s_Weapons_Ammo_s", "WW2_SPE_Assets_s_Weapons_Explosions_s", "WW2_SPE_Assets_s_Weapons_Launchers_s", "WW2_SPE_Assets_s_Weapons_MachineGun_Heavy_s", "WW2_SPE_Assets_s_Weapons_MachineGun_Light_s", "WW2_SPE_Assets_s_Weapons_MachineGun_Sub_s", "WW2_SPE_Assets_s_Weapons_Misc_s", "WW2_SPE_Assets_s_Weapons_Pistols_s", "WW2_SPE_Assets_s_Weapons_Rifles_s", "WW2_SPE_Assets_s_Weapons_SniperRifles_s", "WW2_SPE_Assets_s_Weapons_Sounds_s"};
 		authors[] = {"GeorgRavioli","Sigliskovich","Harkness31"};		
 	};
 };
@@ -303,7 +303,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
 			};
 		};
 		class close: close{
@@ -311,7 +311,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
 			};
 		};
 		class short: short{
@@ -319,7 +319,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
 			};
 		};
 		class medium: medium{
@@ -327,7 +327,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
 			};
 		};
 		class far: far{
@@ -335,7 +335,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
 			};
 		};
 	};	
