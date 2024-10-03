@@ -303,7 +303,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
 			};
 		};
 		class close: close{
@@ -311,7 +311,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
 			};
 		};
 		class short: short{
@@ -319,7 +319,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
 			};
 		};
 		class medium: medium{
@@ -327,7 +327,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
 			};
 		};
 		class far: far{
@@ -335,7 +335,7 @@ class CfgWeapons{
 			soundBurst = 0;
 			class baseSoundModeType;
 			class StandardSound: baseSoundModeType{
-				soundsetshot[] = {"PSM1919_Sets","PSM1919INTCoax_Sets","SyndikatLMG_Tail_SoundSet"};
+				soundsetshot[] = {"PSM1919_Sets","PSM1919EXTCoax_Sets","PSM1919INTCoax_Sets","Mk200_Tail_SoundSet"};
 			};
 		};
 	};	
